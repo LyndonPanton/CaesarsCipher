@@ -10,7 +10,7 @@ window.onload = function(event) {
 	function shift(string) {
 		if (string === "") {
 			display("Input must not be empty");
-		} else if (/[a-zA-Z]/.test(string)) {
+		} else if (!/[a-zA-Z]/.test(string)) {
 			display("Input must contain at least one alphabetical character");
 		} else {
 			let newString = "";
