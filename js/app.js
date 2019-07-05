@@ -16,9 +16,9 @@ window.onload = function(event) {
 			let newString = "";
 
 			for (let i = 0; i < string.length; i++) {
-				if (string.charCodeAt(i) > 64 && string.charCodeAt(i) < 78) {
+				if ((string.charCodeAt(i) > 64 && string.charCodeAt(i) < 78) || (string.charCodeAt(i) > 96 && string.charCodeAt(i) < 110)) {
 					newString = newString + String.fromCharCode(string.charCodeAt(i) + 13);
-				} else if (string.charCodeAt(i) > 77 && string.charCodeAt(i) < 91) {
+				} else if ((string.charCodeAt(i) > 77 && string.charCodeAt(i) < 91) || (string.charCodeAt(i) > 109 && string.charCodeAt(i) < 123)) {
 					newString = newString + String.fromCharCode(string.charCodeAt(i) - 13);
 				} else {
 					newString = newString + string[i];
