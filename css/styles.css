@@ -18,6 +18,39 @@ body, html {
 
 
 /* HEADER */
+h1 {
+	margin: 0;
+	padding: 1vh 0;
+}
+
+header {
+	background-color: #527B58;
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
+
+.task-head {
+	text-decoration: underline;
+}
+
+.visible {
+	display: block;
+}
+
+#chevron {
+	transform: scale(2, 1);
+	padding: 0 0 1vh;
+}
+
+#task {
+	border-top: 1px #DDFF00 solid;
+	background-color: #BBDD93;
+	padding: 0.5vh 10vw;
+	color: black;
+}
 
 
 
