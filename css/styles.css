@@ -55,7 +55,60 @@ header {
 
 
 /* MAIN */
+input {
+	display: block;
+	margin: 0 auto 3vh;
+	font-size: 1em;
+}
 
+main {
+	padding-top: 10vh;
+}
+
+#form-string {
+	border: none;
+	border-bottom: 1px black solid;
+	background-color: transparent;
+	text-align: center;
+	font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+	color: white;
+}
+
+#form-string:focus {
+	border-bottom-color: white;
+}
+
+#form-string:focus::placeholder {
+	opacity: 1;
+}
+
+#form-string::placeholder {
+	opacity: 0.9;
+	color: white;
+}
+
+#form-submit {
+	border: 2px #DDDD00 solid;
+	border-radius: 5px;
+	padding: 1vh 4vw;
+	background-color: #66AA00;
+	font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+	color: white;
+}
+
+#form-submit:active {
+	border-color: #BBBB00;
+	background-color: #448800;
+}
+
+#result {
+	margin: 5vh 15vw;
+	border: 2px green solid;
+	border-radius: 5px;
+	padding: 2vh 0;
+	background-color: #77AA00;
+	color: white;
+}
 
 
 /* FOOTER */
