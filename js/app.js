@@ -3,11 +3,15 @@
 window.onload = function(event) {
 	document.getElementById("copyright-year").textContent = (new Date()).getFullYear();
 
+	function display(string) {
+		document.getElementById("result-value").textContent = string;
+	}
+
 	function shift(string) {
 		if (string === "") {
-			return "Input must not be empty";
+			display("Input must not be empty");
 		} else if (/[a-zA-Z]/.test(string)) {
-			return "Input must contain at least one alphabetical character";
+			display("Input must contain at least one alphabetical character");
 		} else {
 			let newString = "";
 
@@ -21,7 +25,7 @@ window.onload = function(event) {
 				}
 			}
 
-			return newString;
+			display(newString);
 		}
 	}
 
