@@ -14,3 +14,9 @@
 ## Requirements
 > 1. This application requires a browser to run
 > 2. The browser must have JavaScript available and enabled
+
+## Errors
+> 1. N/A
+
+## Extra Information
+> 1. This was done as one of the projects for _freecodecamp_'s _JavaScript Algorithms and Data Structures_ Certification
