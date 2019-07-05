@@ -46,6 +46,8 @@ header {
 }
 
 #task {
+	position: absolute;
+	z-index: 1;
 	border-top: 1px #DDFF00 solid;
 	background-color: #BBDD93;
 	padding: 0.5vh 10vw;
