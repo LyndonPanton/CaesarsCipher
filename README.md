@@ -5,3 +5,8 @@
 > 2. Right click on the file named _index.html_
 > 3. Choose the _open with_ option
 > 4. Open the application in your desired browser
+
+## How To Use
+> 1. Enter the string you want to encrypt or decrypt into the input field
+> 2. Press the _Shift_ button
+> 3. The encrypted or decrypted string will be displayed
