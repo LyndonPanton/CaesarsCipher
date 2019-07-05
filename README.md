@@ -10,3 +10,7 @@
 > 1. Enter the string you want to encrypt or decrypt into the input field
 > 2. Press the _Shift_ button
 > 3. The encrypted or decrypted string will be displayed
+
+## Requirements
+> 1. This application requires a browser to run
+> 2. The browser must have JavaScript available and enabled
